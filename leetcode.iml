@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Stack" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BitManipulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Test" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

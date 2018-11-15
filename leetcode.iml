@@ -7,6 +7,16 @@
       <sourceFolder url="file://$MODULE_DIR$/Tree" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HashTable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Math" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinarySearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TwoPointers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BitManipulation" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

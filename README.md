@@ -1,6 +1,5 @@
 # leetcode
 ##A dream is coming true.
-刷题顺序：
 
 出现频度为5：
 1. Leet Code OJ 1. Two Sum [Difficulty: Easy]

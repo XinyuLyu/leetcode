@@ -16,7 +16,7 @@
 12. Leet Code OJ 88. Merge Sorted Array [Difficulty: Easy]
 13. Leet Code OJ 98. Validate Binary Search Tree [Difficulty: Medium]
 14. Leet Code OJ 125. Valid Palindrome [Difficulty: Easy]
-15. Leet Code OJ 127. Word Ladder [Difficulty: Medium]
+15. Leet Code OJ 127. Word Ladder [Difficulty: Medium] (not solved)
 
 出现频度为4：
 1. Leet Code OJ 2. Add Two Numbers [Difficulty: Medium]

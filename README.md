@@ -1,4 +1,11 @@
-# Redis 对于 key的操作指令
+# Redis
+## Redis启动、测试、关闭
+1. 使用配置文件启动redis server <pre>$ redis-server /usr/local/etc/redis.conf</pre>
+2. 测试redis server是否启动  <pre>L$ redis-cli ping</pre>
+3. redis关闭<pre>redis-cli -p 6379 shutdown</pre> 
+4. 进入数据库 <pre>redis-cli</pre>
+## Redis 对于 key的操作指令
+
 1. del key1 key2 ... Keyn
 作用: 删除1个或多个键
 返回值: 不存在的key忽略掉,返回真正删除的key的数量

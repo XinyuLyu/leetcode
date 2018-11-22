@@ -95,7 +95,7 @@ pttl  key, 以毫秒返回生命周期
 11. <code>persist key</code>  
 作用: 把指定key置为永久有效  
 
-##Redis字符串类型的操作
+## Redis字符串类型的操作
 1. <code>set key value [ex 秒数] / [px 毫秒数]  [nx] /[xx]</code>  
 如: set a 1 ex 10 , 10秒有效  
 Set a 1 px 9000  , 9秒有效  

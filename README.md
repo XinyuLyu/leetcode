@@ -260,29 +260,29 @@ OK注意: 对于NOT操作, key不能多个
 
 ## link 链表结构
 
-1. <code>lpush key value</code>   
+1. <code>lpush key value</code>     
 作用: 把值插入到链接头部
 
-2. <code>rpop key</code>  
+2. <code>rpop key</code>    
 作用: 返回并删除链表尾元素
 
-3. <code>lrange key start  stop</code>  
+3. <code>lrange key start  stop</code>    
 作用: 返回链表中[start ,stop]中的元素  
 规律: 左数从0开始,右数从-1开始  
 
-4. <code>lrem key count value</code>
+4. <code>lrem key count value</code>  
 作用: 从key链表中删除 value值  
 注: 删除count的绝对值个value后结束  
 Count>0 从表头删除  
 Count<0 从表尾删除  
 
-5. <code>ltrim key start stop</code>  
+5. <code>ltrim key start stop</code>    
 作用: 剪切key对应的链接,切[start,stop]一段,并把该段重新赋给key
 
 6. <code>lindex key index</code>  
 作用: 返回index索引上的值,  如  lindex key 2  
   
-7. <code>llen key</code>
+7. <code>llen key</code>  
 作用:计算链接表的元素个数  
 <pre>
 redis 127.0.0.1:6379> llen task
@@ -290,11 +290,11 @@ redis 127.0.0.1:6379> llen task
 redis 127.0.0.1:6379> 
 </pre>
 
-8. <code>linsert  key after|before search value</code>
+8. <code>linsert  key after|before search value</code>  
 作用: 在key链表中寻找’search’,并在search值之前|之后,.插入value  
 注: 一旦找到一个search后,命令就结束了,因此不会插入多个value  
 
-9. <code>rpoplpush source dest</code>
+9. <code>rpoplpush source dest</code>  
 作用: 把source的尾部拿出,放在dest的头部,  
 并返回 该单元值  
 场景: task + bak 双链表完成安全队列  
@@ -303,7 +303,7 @@ redis 127.0.0.1:6379>
 2:接收返回值,并做业务处理  
 3:如果成功,rpop bak 清除任务. 如不成功,下次从bak表里取任务  
 
-10. <code>brpop ,blpop  key timeout</code>
+10. <code>brpop ,blpop  key timeout</code>  
 作用:等待弹出key的尾/头元素,   
 Timeout为等待超时时间  
 如果timeout为0,则一直等待  

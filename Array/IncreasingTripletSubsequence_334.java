@@ -15,15 +15,17 @@ Example 2:
 Input: [5,4,3,2,1]
 Output: false*/
 public class IncreasingTripletSubsequence_334 {
-    public boolean increasingTriplet(int[] nums) {
-        if(nums.length<3) return false;
-        int small = Integer.MAX_VALUE;
-        int large = Integer.MAX_VALUE;
-        for(Integer num:nums){
-            if (num<=small) small = num;
-            else if (num<=large) large = num;
-            else return true;
+    class Solution {//space O(1) time O(n)
+        public boolean increasingTriplet(int[] nums) {
+            if(nums.length<3) return false;
+            int small = Integer.MAX_VALUE;
+            int large = Integer.MAX_VALUE;
+            for(Integer num:nums){
+                if (num<=small) small = num;
+                else if (num<=large) large = num;
+                else return true;
+            }
+            return false;
         }
-        return false;
     }
 }

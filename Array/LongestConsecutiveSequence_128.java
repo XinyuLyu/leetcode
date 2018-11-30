@@ -28,8 +28,8 @@ public class LongestConsecutiveSequence_128 {
                   result.add(counter+1);
                   return Collections.max(result);
               }
-          }//space O(1) time O(nlogn)
-        public int longestConsecutive(int[] nums) {
+          }
+        public int longestConsecutive(int[] nums) {//space O(1) time O(nlogn)
             if(nums.length == 0) return 0;
             else if(nums.length == 1) return 1;
             else{

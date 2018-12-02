@@ -11,7 +11,7 @@ Explanation: [3,0,6,1,5] means the researcher has 5 papers in total and each of 
              Since the researcher has 3 papers with at least 3 citations each and the remaining
              two with no more than 3 citations each, her h-index is 3.
 Note: If there are several possible values for h, the maximum one is taken as the h-index.*/
-public class HIndex_74 {
+public class HIndex_274 {
     class Solution {//space O(1) time O(nlogn)
         public int hIndex(int[] citations) {
             int index = citations.length;

@@ -257,7 +257,7 @@ redis 127.0.0.1:6379> get char
 127.0.0.1:6379>
 OK注意: 对于NOT操作, key不能多个
 </pre>
-
+setbit 就是把某一位置为1 置0没用->相当于初始化一个全为0的变量
 ## link 链表结构
 
 1. <code>lpush key value</code>     
@@ -308,4 +308,57 @@ redis 127.0.0.1:6379>
 Timeout为等待超时时间  
 如果timeout为0,则一直等待  
 场景: 长轮询Ajax,在线聊天时,能够用到  
+
+# Setbit 的实际应用  
+* 场景: 1亿个用户, 每个用户 登陆/做任意操作  ,记为 今天活跃,否则记为不活跃  
+* 每周评出: 有奖活跃用户: 连续7天活动  
+* 每月评,等等...  
+* 思路:
+<pre>   
+Userid   dt  active  
+1        2013-07-27  1  
+1       2013-0726   1  
+如果是放在表中, 1:表急剧增大,2:要用group ,sum运算,计算较慢  
+用: 位图法 bit-map  
+Log0721:  ‘011001...............0’  
+......  
+log0726 :   ‘011001...............0’  
+Log0727 :  ‘0110000.............1’  
+记录用户登陆:
+每天按日期生成一个位图, 用户登陆后,把user_id位上的bit值置为1
+把1周的位图  and 计算,位上为1的,即是连续登陆的用户  
+</pre>
+
+<pre>
+redis 127.0.0.1:6379> setbit mon 100000000 0 错误的，应该是 setbit mon 8 0
+(integer) 0
+redis 127.0.0.1:6379> setbit mon 3 1
+(integer) 0
+redis 127.0.0.1:6379> setbit mon 5 1
+(integer) 0
+redis 127.0.0.1:6379> setbit mon 7 1
+(integer) 0
+redis 127.0.0.1:6379> setbit thur 100000000 0
+(integer) 0
+redis 127.0.0.1:6379> setbit thur 3 1
+(integer) 0
+redis 127.0.0.1:6379> setbit thur 5 1
+(integer) 0
+redis 127.0.0.1:6379> setbit thur 8 1
+(integer) 0
+redis 127.0.0.1:6379> setbit wen 100000000 0
+(integer) 0
+redis 127.0.0.1:6379> setbit wen 3 1
+(integer) 0
+redis 127.0.0.1:6379> setbit wen 4 1
+(integer) 0
+redis 127.0.0.1:6379> setbit wen 6 1
+(integer) 0
+redis 127.0.0.1:6379> bitop and  res mon feb wen
+(integer) 12500001
+最后通过getbi筛选出仍为1的bit，即找到了连续登陆天数的用户  
+如上例,优点:  
+1: 节约空间, 1亿人每天的登陆情况,用1亿bit,约1200WByte,约10M 的字符就能表示  
+2: 计算方便  
+</pre>
 

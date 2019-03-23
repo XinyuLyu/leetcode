@@ -8,12 +8,12 @@ public class quicksort {
     public static void quickSort(int[] arr, int left, int right) {
         if(right<=left) return;
         int i=left,j=right+1;
-        three_median_Pivot(arr,left,right);
+        //three_median_Pivot(arr,left,right);
         int v=arr[left];
         while(true)
         {
             while(arr[++i]<v) if(i==right) break;
-            while((v<arr[--j])) if(j==left) break;
+            while(v<arr[--j]) if(j==left) break;
             if(i>=j) break;
             swap(arr,i,j);
         }

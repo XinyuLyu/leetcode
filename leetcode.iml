@@ -4,25 +4,26 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/problems" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/Tree" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/HashTable" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/String" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/Array" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/DP" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/Math" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/DFS" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/BinarySearch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/TwoPointers" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/BFS" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/Stack" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/LinkedList" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/BitManipulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/HashTable" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/DP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/Math" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/DFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/BinarySearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/TwoPointers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/BFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/Stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/BitManipulation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Test" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/Others" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/Others" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/more_than_leetcode" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu/heap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous/heap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/prime" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/xinyu" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/previous" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3.26" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

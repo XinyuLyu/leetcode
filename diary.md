@@ -44,3 +44,8 @@ Unique Email Addresses
 UniqueMorseCodeWords  
 ClimbingStairs  
 RobotReturntoOrigin
+##### 3.27
+Product of Array Except Self  
+HouseRobber  
+Counting Bits  
+addTwoNumbers

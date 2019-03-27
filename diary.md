@@ -40,3 +40,7 @@ Trapping Rain Water
 Array Partition I
 ##### 3.26 
 Longest Palindromic Substring  
+Unique Email Addresses  
+UniqueMorseCodeWords  
+ClimbingStairs  
+RobotReturntoOrigin

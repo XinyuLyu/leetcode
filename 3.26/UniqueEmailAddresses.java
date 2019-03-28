@@ -1,9 +1,6 @@
+import java.util.HashSet;
+
 public class UniqueEmailAddresses {
-    /*
-Input: ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
-Output: 2
-Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails
-*/
     class Solution {
         public int numUniqueEmails(String[] emails) {
             for(int i=0;i<emails.length;i++){

@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 public class UniqueMorseCodeWords {
     class Solution {
         public int uniqueMorseRepresentations(String[] words) {

@@ -52,3 +52,10 @@ addTwoNumbers
 MergeTwoSortedLists(R)      
 Reverse Linked List(R)  
 Palindrome Linked List(R)
+##### 3.28
+N_aryTreePreorderTraversal(R)  
+N_aryTreePostorderTraversal(R)  
+SameTree(R)  
+BinaryTreeLevelOrderTraversal(R)  
+SymmetricTree(R)  
+BinaryTreeLevelOrderTraversal_II(R)  

@@ -59,3 +59,8 @@ SameTree(R)
 BinaryTreeLevelOrderTraversal(R)  
 SymmetricTree(R)  
 BinaryTreeLevelOrderTraversal_II(R)  
+PathSum(R)(___iterally needs more study___)  
+Path Sum II(看不懂答案)  
+BinaryTreeInorderTraversal(N)  
+
+  

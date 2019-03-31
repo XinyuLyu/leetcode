@@ -62,5 +62,10 @@ BinaryTreeLevelOrderTraversal_II(R)
 PathSum(R)(___iterally needs more study___)  
 Path Sum II(看不懂答案)  
 BinaryTreeInorderTraversal(N)  
+##### 3.29
+BinaryTreeInorderTraversal(R) 
+PathSum(R)  
+##### 3.30
+BinaryTreeInorderTraversal(R)   
 
   

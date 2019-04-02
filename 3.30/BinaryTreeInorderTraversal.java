@@ -1,6 +1,6 @@
 public class BinaryTreeInorderTraversal {
     //iteratively
-/*class Solution {
+class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new LinkedList<>();
         Stack <TreeNode> sk = new Stack();
@@ -16,7 +16,7 @@ public class BinaryTreeInorderTraversal {
         }
         return res;
     }
-}*/
+}
 //recursively
     class Solution {
         List<Integer> res = new LinkedList<>();

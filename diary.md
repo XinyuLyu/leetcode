@@ -67,5 +67,7 @@ BinaryTreeInorderTraversal(R)
 PathSum(R)  
 ##### 3.30
 BinaryTreeInorderTraversal(R)   
-
+##### 4.2(每天刷一点)
+Path Sum(R)  
+PathSumII  
   

@@ -72,4 +72,7 @@ Path Sum(R)
 PathSumII  
 ##### 4.3  
 PathSumIII  
-  
+##### 4.21  
+PathSumIII
+PathSumII
+PathSumI

@@ -76,3 +76,5 @@ PathSumIII
 PathSumIII
 PathSumII
 PathSumI
+#### 4.22
+DiameterofBinaryTree_543  
